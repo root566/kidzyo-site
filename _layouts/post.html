@@ -1,0 +1,5 @@
+---
+layout: default
+---
+<article class="article wrap narrow"><a class="back" href="{{ '/' | relative_url }}">All stories</a><p class="eyebrow">{{ page.categories | join: ' · ' | default: 'Journal' }} <span> / </span> {{ page.date | date: '%B %-d, %Y' }}</p><h1>{{ page.title | escape }}</h1><p class="article-intro">{{ page.description | escape }}</p><div class="prose">{{ content }}</div></article>
+
